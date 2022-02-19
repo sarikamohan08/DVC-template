@@ -10,7 +10,9 @@ DVC project template
 ### STEP 03- Create a conda environment after opening the repository in VSCODE
 
 ```bash
-conda create --prefix ./env python=3.7 -y
+
+conda create -n env_name python=3.7 -y
+
 ```
 
 ```bash
